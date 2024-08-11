@@ -39,14 +39,14 @@ const Banner = ({ description, link, endTime }) => {
   const seconds = Math.floor((timeLeft / 1000) % 60);
 
   return (
-    <Box sx={{ padding: "20px", backgroundColor: "#3f51b5", color: "#fff" }}>
+    <Box sx={{ padding: "20px", backgroundColor: "#3f51b5", color: "#fff" , textAlign:"center"}}>
       <Typography variant="h6"> {description} </Typography>{" "}
       <Typography variant="body1">
         Time left: {minutes}: {seconds < 10 ? "0" : ""} {seconds}{" "}
       </Typography>{" "}
       {link && (
         <Button variant="contained" href={link} sx={{ marginTop: "10px" }}>
-          Learn More{" "}
+          z Learn More{" "}
         </Button>
       )}{" "}
     </Box>

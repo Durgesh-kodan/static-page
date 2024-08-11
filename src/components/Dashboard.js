@@ -105,7 +105,7 @@ const Dashboard = () => {
       />{" "}
       {/* Same as */} <ToastContainer />
       {!isVisible ? "" : <Banner {...bannerData} />}{" "}
-      <Box sx={{ padding: "20px", width: "50%", margin: "auto" }}>
+      <Box sx={{ padding: "20px", width: "50%", margin: "auto" , textAlign:"center" }}>
         <Box sx={{ textAlign: "center", marginTop: "1rem" }}>
           <Typography variant="h5" gutterBottom>
             Dashboard{" "}
